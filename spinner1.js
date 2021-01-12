@@ -44,3 +44,9 @@ setTimeout(() => {
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 1900);
+
+//to finish with a line break
+setTimeout(() => {
+  console.log();
+}, 1950);
+
